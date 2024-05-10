@@ -8,6 +8,7 @@ const path = require('path');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -16,6 +17,10 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[id].css',
     }),
+    new HtmlWebpackPlugin({
+      title: 'Jack Halcisak - Software Developer',
+      template: './src/index.html'
+    })
   ],
   entry: {
     index: './src/index.js',
