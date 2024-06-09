@@ -4,6 +4,7 @@ import "./style.css";
 import "./desktop.css";
 import "./scrollBehavior.css";
 import './landingButton.css';
+import './firefliesAnimation.css';
 
 import addImages from './addImages.js';
 import { makeLinkedList } from "./webpageData.js";
