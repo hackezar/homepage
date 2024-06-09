@@ -1,10 +1,14 @@
 import _, { add } from "lodash";
+// CSS Files
 import "./style.css";
 import "./desktop.css";
+import "./scrollBehavior.css";
+import './landingButton.css';
 
 import addImages from './addImages.js';
 import { makeLinkedList } from "./webpageData.js";
-import { makeCarousel, addListeners, startInterval } from "./makeCarousel.js";
+import { makeCarousel, addCarouselListeners } from "./makeCarousel.js";
+import addEventListeners from "./eventListeners.js";
 // images
 import './images/battleship.png';
 import './images/library-app.png';
@@ -18,6 +22,7 @@ function startApp(){
     addImages();
     window.list = makeLinkedList();
     let site = makeCarousel(list);
-    addListeners();
+    addCarouselListeners();
+    addEventListeners();
     //startInterval(site, list);
 }

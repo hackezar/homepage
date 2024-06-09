@@ -52,7 +52,7 @@ export function stopInterval(interval){
     clearInterval(interval);
 }
 
-export function addListeners() {
+export function addCarouselListeners() {
     // Radio Button event listeners
     let radios = document.getElementsByName('position');
     console.log(radios);
