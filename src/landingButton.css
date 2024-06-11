@@ -1,13 +1,3 @@
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #121212;
-}
-
 .btn {
     margin-top: 1rem;
     padding: 1em 2em;

@@ -2,7 +2,7 @@ import _, { add } from "lodash";
 // CSS Files
 import "./style.css";
 import "./desktop.css";
-import "./scrollBehavior.css";
+import "./stickyNavbar.css";
 import './landingButton.css';
 import './firefliesAnimation.css';
 

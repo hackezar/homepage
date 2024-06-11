@@ -6,20 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="left-nav">
-            <img class="logo" src="./images/logo.png">
-            <p class="logo-name">Jack Halcisak</p>
-        </div>
 
-        <div class="right-nav">
-            <ul class="page-links">
-                <li>Gallery</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-    </nav>
     <main class="main">
         <header class="landing">
             <div class="firefly"></div>
@@ -37,13 +24,30 @@
             <div class="firefly"></div>
             <div class="firefly"></div>
             <div class="firefly"></div>
-            <p>Good day, I'm Jack. I'm a full stack web devloper</p>
+            <p>Hello</p> 
+            <p>I'm Jack</p>
+            <p>The Hardest Working Web Developer</p>
             <div class="button">
                 <button class="btn" id="viewGalleryBtn">View My Work</button>
             </div>
         </header>
 
-        <section class="gallery-container">
+        <nav class="navbar sticky">
+            <div class="left-nav">
+                <img class="logo" src="./images/logo.png">
+                <p class="logo-name">Jack Halcisak</p>
+            </div>
+    
+            <div class="right-nav">
+                <ul class="page-links">
+                    <li id="gallery-link" class="link"><a href="#">Gallery</a></li>
+                    <li id="about-link" class="link"><a href="#">About</a></li>
+                    <li id="contact-link" class="link"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="gallery-container" class="gallery-container">
             <div class="middle-info">
                 <p class="name">Name</p>
                 <a class="link">Link</a>  
