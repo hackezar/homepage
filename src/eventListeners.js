@@ -12,5 +12,10 @@ export default function addEventListeners() {
         let gallery = document.getElementById('gallery-container');
         gallery.scrollIntoView({behavior: 'smooth', block:'end'});
     })
-    
+    // about link
+    let aboutLink = document.getElementById('about-link');
+    aboutLink.addEventListener('click', () => {
+        let about = document.getElementById('about-container');
+        about.scrollIntoView({behavior: 'smooth', block:'end'});
+    })
 }

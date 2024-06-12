@@ -14,7 +14,6 @@ body {
 }
 
 .navbar {
-  border-bottom: 1px solid #EEEEEE;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +39,7 @@ body {
   height: 100vh;
   justify-content:center;
   align-items: center;
-  border: 1px solid white;
+  border: 1px solid red;
   z-index: 1;
 }
 

@@ -16,6 +16,8 @@
     top: 0; /* Position the navbar at the top of the page */
     height: 50px;
     width: 100%; /* Full width */
+    background-color:slategray;
+    z-index: 2;
   }
 
 
@@ -96,7 +98,7 @@
   }
 
   .gallery-container {
-    height: 100vh;
+    height: 100vh
   }
 
   /* CSS For the Carousel Image Slider */
@@ -109,6 +111,7 @@
       align-items: center;
       justify-content: center;
       border: 1px solid white;
+
   }
 
 
@@ -208,7 +211,7 @@
 
   .middle-info {
       display: flex;
-      margin-top: 30px;
+      margin-top: 50px;
       height: 10vh;
       flex-direction: column;
       align-items: center;

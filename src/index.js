@@ -22,7 +22,7 @@ startApp()
 function startApp(){
     addImages();
     window.list = makeLinkedList();
-    let site = makeCarousel(list);
+    makeCarousel(list);
     addCarouselListeners();
     addEventListeners();
     //startInterval(site, list);
