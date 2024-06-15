@@ -5,9 +5,7 @@
     border: none;
     cursor: pointer;
     user-select: none;
-    position: relative;
-    background-color: black;
-    color: #EEEEEE;     
+    position: relative;  
 }
 
 .btn::after {
