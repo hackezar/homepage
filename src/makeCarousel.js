@@ -1,8 +1,60 @@
 import _ from 'lodash';
 
-import Back from './images/back-arrow.svg';
-import Forward from './images/forward-arrow.svg';
+import BackArrow from './icons/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.svg'
+import ForwardArrow from './icons/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.svg';
 
+
+export function addArrowIcons() {
+    let backArrow = document.getElementById('back-arrow');
+    let forwardArrow = document.getElementById('forward-arrow');
+    forwardArrow.src = ForwardArrow
+    backArrow.src = BackArrow;
+    // Event listener for forward arrow
+    forwardArrow.addEventListener('click', () => {
+        let checked = document.querySelectorAll("input:checked");
+        checked = checked[0].className;
+        // Iterates through which radio button is checked and selects the next one
+        if (checked == '1'){
+            let newChecked = document.getElementsByClassName('2')
+            newChecked[0].checked = true;
+        } else if (checked == '2'){
+            let newChecked = document.getElementsByClassName('3')
+            newChecked[0].checked = true;
+        } else if (checked == '3'){
+            let newChecked = document.getElementsByClassName('4')
+            newChecked[0].checked = true;
+        } else if (checked == '4'){
+            let newChecked = document.getElementsByClassName('5')
+            newChecked[0].checked = true;
+        } else if (checked == '5'){
+            let newChecked = document.getElementsByClassName('1')
+            newChecked[0].checked = true;
+        }
+    })
+    // Event listener for back arrow
+    backArrow.addEventListener('click', () => {
+        let checked = document.querySelectorAll("input:checked");
+        checked = checked[0].className;
+        // Iterates through which radio button is checked and selects the next one
+        if (checked == '1'){
+            let newChecked = document.getElementsByClassName('5')
+            newChecked[0].checked = true;
+        } else if (checked == '2'){
+            let newChecked = document.getElementsByClassName('1')
+            newChecked[0].checked = true;
+        } else if (checked == '3'){
+            let newChecked = document.getElementsByClassName('2')
+            newChecked[0].checked = true;
+        } else if (checked == '4'){
+            let newChecked = document.getElementsByClassName('3')
+            newChecked[0].checked = true;
+        } else if (checked == '5'){
+            let newChecked = document.getElementsByClassName('4')
+            newChecked[0].checked = true;
+        }
+    })
+
+}
 
 export function makeCarousel(list) {
     updateImage(list);
@@ -66,6 +118,54 @@ export function addCarouselListeners() {
         })
     })
     // End
+
+    // Left and Right Arrow Key event listeners to scroll through gallery
+        // Event listener for any key press
+        document.addEventListener('keydown', event => {
+            let checked = document.querySelectorAll("input:checked");
+            checked = checked[0].className;
+            // check if keydown is left arrow key
+            if (event.key == 'ArrowRight') {
+                // Iterates through which radio button is checked and selects the next one
+                if (checked == '1'){
+                    let newChecked = document.getElementsByClassName('2')
+                    newChecked[0].checked = true;
+                } else if (checked == '2'){
+                    let newChecked = document.getElementsByClassName('3')
+                    newChecked[0].checked = true;
+                } else if (checked == '3'){
+                    let newChecked = document.getElementsByClassName('4')
+                    newChecked[0].checked = true;
+                } else if (checked == '4'){
+                    let newChecked = document.getElementsByClassName('5')
+                    newChecked[0].checked = true;
+                } else if (checked == '5'){
+                    let newChecked = document.getElementsByClassName('1')
+                    newChecked[0].checked = true;
+                }
+            // Event Listener for Left Arrow Key
+            } else if (event.key == "ArrowLeft") {
+                    let checked = document.querySelectorAll("input:checked");
+                    checked = checked[0].className;
+                    // Iterates through which radio button is checked and selects the previous one
+                    if (checked == '1'){
+                        let newChecked = document.getElementsByClassName('5')
+                        newChecked[0].checked = true;
+                    } else if (checked == '2'){
+                        let newChecked = document.getElementsByClassName('1')
+                        newChecked[0].checked = true;
+                    } else if (checked == '3'){
+                        let newChecked = document.getElementsByClassName('2')
+                        newChecked[0].checked = true;
+                    } else if (checked == '4'){
+                        let newChecked = document.getElementsByClassName('3')
+                        newChecked[0].checked = true;
+                    } else if (checked == '5'){
+                        let newChecked = document.getElementsByClassName('4')
+                        newChecked[0].checked = true;
+                    }
+            }
+        })
 }
 
 
