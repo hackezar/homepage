@@ -166,4 +166,30 @@ flex-direction: column;
    padding: 1em;
    border-radius: 1em;
    background-color: black;
+   box-shadow: rgba(0, 0, 0) 0px 2px 8px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #EEEEEE;
+  scroll-snap-align: start;
+}
+
+.email > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 60px;
+}
+
+#email-icon {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  ;
 }

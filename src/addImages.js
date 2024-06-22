@@ -1,5 +1,6 @@
 import Logo from './images/logo.png';
 import Portrait from './images/portrait.jpg';
+import Email from './icons/email.svg';
 
 
 export default function addImages() {
@@ -7,4 +8,8 @@ export default function addImages() {
     logo.src = Logo;
     let portrait = document.querySelector('.portrait');
     portrait.src = Portrait;
+
+    // contact page icons
+    let email = document.getElementById('email-icon');
+    email.src = Email;
 }

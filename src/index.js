@@ -5,6 +5,7 @@ import "./desktop.css";
 import "./stickyNavbar.css";
 import './landingButton.css';
 import './firefliesAnimation.css';
+import './hexagon.css';
 
 // JS Functions
 import addImages from './addImages.js';
