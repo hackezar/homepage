@@ -8,8 +8,4 @@ export default function addImages() {
     logo.src = Logo;
     let portrait = document.querySelector('.portrait');
     portrait.src = Portrait;
-
-    // contact page icons
-    let email = document.getElementById('email-icon');
-    email.src = Email;
 }

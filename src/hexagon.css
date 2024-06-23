@@ -1,34 +1,39 @@
 :root {
   --color: grey;
+  --color-accent1: #e31baa;
+  --color-accent2: #0af2fa;
 }
 
 .hex {
-  margin-top: 30px;
-  width: 104px;
-  height: 60px;
-  background-color: var(--color);
-  border-color: var(--color);
-  position: relative;
-  display: inline-block;
+  height: 12em;
+  width: 12em;
+  background: var(--color-accent2);
+  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  box-shadow: rgba(0, 0, 0) 0px 2px 8px;
 }
 
-.hex:before {
-  content: " ";
-  width: 0; height: 0;
-  border-bottom: 30px solid;
-  border-color: inherit;
-  border-left: 52px solid transparent;
-  border-right: 52px solid transparent;
-  position: absolute;
-  top: -30px;
+.inner {
+  background-color: black;
+  -webkit-transform: scale(.95, .95);
+  -moz-transform: scale(.95, .95);
+  transform: scale(.95, .95);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.hex:after {
-  content: "";
-  width: 0;
-  position: absolute;
-  bottom: -30px;
-  border-top: 30px solid;
-  border-color: inherit;
-  border-left: 52px solid transparent;
-  border-right: 52px solid transparent;
+
+.hex-text {
+  margin-top: 0.5em;
+  color: white;
+  font-size: 1.5em;
+}
+
+.hex-logo {
+  margin: 0;
+  z-index: 2;
+  height: 7em;
+  width: 7em;
 }

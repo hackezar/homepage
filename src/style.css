@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root {
+  --color-accent1: #e31baa;
+  --color-accent2: #0af2fa;
+}
+
 body, html {
   height: 100vh;
   width: 100vw;
@@ -110,9 +115,14 @@ body {
 
 .right-list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 3em;
+}
+
+.row1, .row2, .row3 {
+  display: flex;
 }
 
 .skill-div > p {
@@ -127,7 +137,7 @@ body {
   flex-direction: column;
   height: 5em;
   width: 5em;
-  border: 1px solid white;
+  border: 1px solid var(--color-accent2);
   margin: 1em 0.5em;
   padding: 1em;
   border-radius: 2em;
@@ -162,7 +172,7 @@ flex-direction: column;
 .about-list > li {
   margin: 2em;
   font-size: 2em;
-   border: 1px solid white;
+   border: 1px solid var(--color-accent1);
    padding: 1em;
    border-radius: 1em;
    background-color: black;

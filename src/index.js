@@ -19,9 +19,9 @@ import './images/library-app.png';
 import JavaScript from './images/javascript-logo.png';
 import CSS from './images/css-logo.png';
 import Git from './images/git-logo.png';
-import Github from './images/github-logo.jpg';
-import Html from './images/html-logo.jpg';
-import MongoDB from './images/mongo-db-logo.png';
+import Github from './images/github-logo.png';
+import Html from './images/html-logo.png';
+import MongoDB from './images/mongodb-seeklogo.svg';
 import Node from './images/node-logo.png';
 import Webpack from './images/webpack-logo.png';
 
@@ -48,12 +48,11 @@ function startApp(){
 
 // Adds Icons in About section
 function addSkillIcons() {
-    document.getElementById('javascript-icon').src = JavaScript;
-    document.getElementById('css-icon').src = CSS;
-    document.getElementById('git-icon').src = Git;
+    document.getElementById('jsIcon').src = JavaScript;
     document.getElementById('html-icon').src = Html;
+    document.getElementById('css-icon').src = CSS;
+    document.getElementById('github-icon').src = Github;
     document.getElementById('mongo-db-icon').src = MongoDB;
     document.getElementById('node-icon').src = Node;
     document.getElementById('webpack-icon').src = Webpack;
-    document.getElementById('github-icon').src = Github;
 }
