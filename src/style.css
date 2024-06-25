@@ -172,21 +172,52 @@ flex-direction: column;
 .about-list > li {
   margin: 2em;
   font-size: 2em;
-   border: 1px solid var(--color-accent1);
-   padding: 1em;
-   border-radius: 1em;
-   background-color: black;
-   box-shadow: rgba(0, 0, 0) 0px 2px 8px;
+  border: 1px solid var(--color-accent1);
+  padding: 1em;
+  border-radius: 1em;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0) 0px 2px 8px;
 }
 
-.contact {
+.contact-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
   color: #EEEEEE;
   scroll-snap-align: start;
+}
+
+.contact-div {
+  margin: 2em;
+  font-size: 2em;
+  border: 1px solid var(--color-accent1);
+  padding: 1em;
+  border-radius: 1em;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0) 0px 2px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20em;
+}
+
+.contact-div-title {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.contact-title, .contact-data {
+  margin: 1em;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.github-data {
+  font-size: 0.93em;
 }
 
 .email > div {

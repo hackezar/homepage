@@ -243,6 +243,12 @@
       height: 50px;
       width: 50px;
   }
+
+  .contact {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
   
 }
 
