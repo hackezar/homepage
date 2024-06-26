@@ -182,6 +182,7 @@ flex-direction: column;
 .contact-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 100vh;
   color: #EEEEEE;
@@ -200,6 +201,7 @@ flex-direction: column;
   flex-direction: column;
   align-items: center;
   width: 20em;
+  cursor: pointer;
 }
 
 .contact-div-title {
