@@ -27,7 +27,7 @@
     background-size: 500%;
     animation-name: flowing;
     animation-timing-function: ease;
-    animation-duration: 10s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     opacity: 0;
 }

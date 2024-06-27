@@ -3,6 +3,12 @@ import LibraryApp from './images/library-app.png';
 import MobileMenu from './images/mobile-menu.png';
 import TicTacToe from './images/tic-tac-toe.png';
 import WeatherApp from './images/weather-app.png';
+import ToDoList from './images/to-do-list.png';
+import AdminDashboard from './images/admin-dashboard.png';
+import EtchASketch from './images/etch-a-sketch.png';
+import RockPaperScissors from './images/rock-paper-scissors.png';
+import Calculator from './images/calculator.png';
+import BusinessWebsite from './images/business-website.png';
 
 export class ListNode {
     constructor(name, pic, src, index, selected) {
@@ -59,7 +65,7 @@ export function makeLinkedList () {
     let node2 = new ListNode('Mobile Menu', MobileMenu, 'https://hackezar.github.io/mobileMenu/' ,1, false);
     node1.next = node2;
     node2.previous = node1;
-    let node3 = new ListNode('Weather App', WeatherApp, 'https://hackezar.github.io/weatherApp/' , 2, true);
+    let node3 = new ListNode('Weather App', WeatherApp, 'https://hackezar.github.io/weatherApp/' , 2, false);
     node3.previous = node2;
     node2.next = node3;
     let node4 = new ListNode("Library App", LibraryApp, 'https://hackezar.github.io/libraryApp/', 3, false);
@@ -68,6 +74,24 @@ export function makeLinkedList () {
     let node5 = new ListNode("Tic Tac Toe", TicTacToe, 'https://hackezar.github.io/ticTacToe/', 4, false);
     node4.next = node5;
     node5.previous = node4;
+    let node6 = new ListNode("To Do List", ToDoList, 'https://hackezar.github.io/todo/', 5, false);
+    node5.next = node6;
+    node6.previous = node5;
+    let node7 = new ListNode("Admin Dashboard", AdminDashboard, 'https://hackezar.github.io/admin-dashboard/', 6, true);
+    node6.next = node7;
+    node7.previous = node6;
+    let node8 = new ListNode('Etch A Sketch', EtchASketch, 'https://hackezar.github.io/Etch_A_Sketch/', 7, false);
+    node7.next = node8;
+    node8.previous = node7;
+    let node9 = new ListNode('Calculator', Calculator, 'https://hackezar.github.io/calculator/', 8, false);
+    node8.next = node9;
+    node9.previous = node8;
+    let node10 = new ListNode('Rock Paper Scissors', RockPaperScissors, 'https://hackezar.github.io/RockPaperScissors/', 9, false);
+    node9.next = node10;
+    node10.previous = node9;
+    let node11 = new ListNode("Business Website", BusinessWebsite, 'https://hackezar.github.io/Pool_Painting/', 10, false);
+    node10.next = node11;
+    node11.previous = node10;
     let list = new linkedList(node1);
     return list;
 }

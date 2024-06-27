@@ -140,6 +140,30 @@ export function addCarouselListeners() {
                     let newChecked = document.getElementsByClassName('5')
                     newChecked[0].checked = true;
                 } else if (checked == '5'){
+                    let newChecked = document.getElementsByClassName('6')
+                    newChecked[0].checked = true;
+                }
+                else if (checked == '6'){
+                    let newChecked = document.getElementsByClassName('7')
+                    newChecked[0].checked = true;
+                }
+                else if (checked == '7'){
+                    let newChecked = document.getElementsByClassName('8')
+                    newChecked[0].checked = true;
+                }
+                else if (checked == '8'){
+                    let newChecked = document.getElementsByClassName('9')
+                    newChecked[0].checked = true;
+                }
+                else if (checked == '9'){
+                    let newChecked = document.getElementsByClassName('10')
+                    newChecked[0].checked = true;
+                }
+                else if (checked == '10'){
+                    let newChecked = document.getElementsByClassName('11')
+                    newChecked[0].checked = true;
+                }
+                else if (checked == '11'){
                     let newChecked = document.getElementsByClassName('1')
                     newChecked[0].checked = true;
                 }
@@ -149,7 +173,7 @@ export function addCarouselListeners() {
                     checked = checked[0].className;
                     // Iterates through which radio button is checked and selects the previous one
                     if (checked == '1'){
-                        let newChecked = document.getElementsByClassName('5')
+                        let newChecked = document.getElementsByClassName('11')
                         newChecked[0].checked = true;
                     } else if (checked == '2'){
                         let newChecked = document.getElementsByClassName('1')
@@ -162,6 +186,30 @@ export function addCarouselListeners() {
                         newChecked[0].checked = true;
                     } else if (checked == '5'){
                         let newChecked = document.getElementsByClassName('4')
+                        newChecked[0].checked = true;
+                    }
+                    else if (checked == '6'){
+                        let newChecked = document.getElementsByClassName('5')
+                        newChecked[0].checked = true;
+                    }
+                    else if (checked == '7'){
+                        let newChecked = document.getElementsByClassName('6')
+                        newChecked[0].checked = true;
+                    }
+                    else if (checked == '8'){
+                        let newChecked = document.getElementsByClassName('7')
+                        newChecked[0].checked = true;
+                    }
+                    else if (checked == '9'){
+                        let newChecked = document.getElementsByClassName('8')
+                        newChecked[0].checked = true;
+                    }
+                    else if (checked == '10'){
+                        let newChecked = document.getElementsByClassName('9')
+                        newChecked[0].checked = true;
+                    }
+                    else if (checked == '11'){
+                        let newChecked = document.getElementsByClassName('10')
                         newChecked[0].checked = true;
                     }
             }

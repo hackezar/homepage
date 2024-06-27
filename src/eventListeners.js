@@ -18,6 +18,12 @@ export default function addEventListeners() {
         let about = document.getElementById('about-container');
         about.scrollIntoView({behavior: 'smooth', block:'end'});
     })
+    // Contact link
+    let contactLink = document.getElementById('contact-link');
+    contactLink.addEventListener('click', () => {
+        let contact = document.getElementById('contact-container');
+        contact.scrollIntoView({behavior: 'smooth', block:'end'});
+    })
 
     // Contact Section Listeners
     // Copy Phone Number to Clipboard

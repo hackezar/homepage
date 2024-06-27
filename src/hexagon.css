@@ -13,12 +13,20 @@
   box-shadow: rgba(0, 0, 0) 0px 2px 8px;
 }
 
+.hex:hover {
+  background-color: var(--color-accent1);
+}
+
+.inner:hover {
+  background-color: black;
+}
+
 .inner {
   background-color: black;
   -webkit-transform: scale(.95, .95);
   -moz-transform: scale(.95, .95);
   transform: scale(.95, .95);
-  z-index: 1;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
