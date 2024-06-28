@@ -27,9 +27,35 @@ export function addArrowIcons() {
             let newChecked = document.getElementsByClassName('5')
             newChecked[0].checked = true;
         } else if (checked == '5'){
+            let newChecked = document.getElementsByClassName('6')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '6'){
+            let newChecked = document.getElementsByClassName('7')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '7'){
+            let newChecked = document.getElementsByClassName('8')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '8'){
+            let newChecked = document.getElementsByClassName('9')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '9'){
+            let newChecked = document.getElementsByClassName('10')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '10'){
+            let newChecked = document.getElementsByClassName('11')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '11'){
             let newChecked = document.getElementsByClassName('1')
             newChecked[0].checked = true;
         }
+        // Updates the middle info after a slide is changed
+        updateSelected(list);
     })
     // Event listener for back arrow
     backArrow.addEventListener('click', () => {
@@ -37,7 +63,7 @@ export function addArrowIcons() {
         checked = checked[0].className;
         // Iterates through which radio button is checked and selects the next one
         if (checked == '1'){
-            let newChecked = document.getElementsByClassName('5')
+            let newChecked = document.getElementsByClassName('11')
             newChecked[0].checked = true;
         } else if (checked == '2'){
             let newChecked = document.getElementsByClassName('1')
@@ -52,6 +78,32 @@ export function addArrowIcons() {
             let newChecked = document.getElementsByClassName('4')
             newChecked[0].checked = true;
         }
+        else if (checked == '6'){
+            let newChecked = document.getElementsByClassName('5')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '7'){
+            let newChecked = document.getElementsByClassName('6')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '8'){
+            let newChecked = document.getElementsByClassName('7')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '9'){
+            let newChecked = document.getElementsByClassName('8')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '10'){
+            let newChecked = document.getElementsByClassName('9')
+            newChecked[0].checked = true;
+        }
+        else if (checked == '11'){
+            let newChecked = document.getElementsByClassName('10')
+            newChecked[0].checked = true;
+        }
+        // Updates the middle info after a slide is changed
+        updateSelected(list);
     })
 
 }
@@ -77,8 +129,8 @@ export function updateSelected(list) {
     checked = checked[0].className;
     checked--;
     let data = getData(checked, list);
-    document.querySelector('.name').innerHTML = data.name;
-    document.querySelector('.link').href = data.src;    
+    document.querySelector('.gallery-name').innerHTML = data.name;
+    document.querySelector('.gallery-link').href = data.src;    
 }
 
 export function updateImage(list) {
@@ -167,6 +219,8 @@ export function addCarouselListeners() {
                     let newChecked = document.getElementsByClassName('1')
                     newChecked[0].checked = true;
                 }
+                // Updates the middle info after a slide is changed
+                updateSelected(list);
             // Event Listener for Left Arrow Key
             } else if (event.key == "ArrowLeft") {
                     let checked = document.querySelectorAll("input:checked");
@@ -212,6 +266,8 @@ export function addCarouselListeners() {
                         let newChecked = document.getElementsByClassName('10')
                         newChecked[0].checked = true;
                     }
+                    // Updates the middle info after a slide is changed
+                    updateSelected(list);
             }
         })
 }
