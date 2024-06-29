@@ -67,7 +67,7 @@ body {
 }
 
 .gallery-link {
-  border:1px solid var(--color-accent2);
+  border: 1px solid var(--color-accent2);
   outline: 1px solid var(--color-accent1);
   font-size: 1em;
   padding: 0.5em;

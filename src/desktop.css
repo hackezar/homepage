@@ -12,8 +12,6 @@
         filter: blur(0);
     }
 }
-
-@media (width > 1024px ) {
   .navbar {
     overflow: hidden;
     position: fixed; /* Sets the navbarto fixed position */
@@ -60,8 +58,8 @@
     content: '';
     right: 0;
     top: 0;
-    border-top: 3px solid #3E8914;
-    border-right: 3px solid #2E640F;
+    border-top: 3px solid var(--color-accent1);
+    border-right: 3px solid var(--color-accent2);
     transform: translate(-100%, 50%);
   }
 
@@ -69,8 +67,8 @@
     content: '';
     left: 0;
     bottom: 0;
-    border-bottom: 3px solid #2E640F;
-    border-left: 3px solid #3E8914;
+    border-bottom: 3px solid var(--color-accent1);
+    border-left: 3px solid var(--color-accent2);
     transform: translate(100%, -50%)
   }
 
@@ -81,7 +79,7 @@
   }
   
   .page-links a:hover {
-    color: #3DA35D;
+    color: white;
   }
 
   /*End of Nav bar links effects */
@@ -347,6 +345,4 @@
     justify-content: space-evenly;
   }
   
-}
-
 

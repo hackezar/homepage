@@ -1,0 +1,72 @@
+@media screen and (max-width: 601px) {
+    .navbar {
+        display: none;
+    }
+
+    .about {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .hex-text {
+        margin-top: 0.5em;
+        color: white;
+        font-size: 1em;
+      }
+      
+      .hex-logo {
+        margin: 0;
+        z-index: 2;
+        height: 4em;
+        width: 4em;
+      }
+
+    .about-list > li {
+        display: flex;
+        align-items: center;
+        margin: 0.4em;
+        height: 0.5em;
+        font-size: 1.5em;
+    }
+
+    .hex {
+        height: 7em;
+        width: 7em;
+    }
+    
+    .contact-div-title {
+        font-size: 1em;
+        justify-items: start;
+    }
+
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 1em;
+    }
+
+    .contact-div {
+        height: 2.5em;
+        width: 16em;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        font-size: 1em;
+    }
+
+    .contact-title, .contact-data {
+        margin: 0;
+    }
+
+    .carousel-div > input {
+        display: none;
+    }
+
+    .carousel-div {
+        grid-template-columns: 1fr 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 1fr;
+    }
+}
