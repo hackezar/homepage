@@ -16,7 +16,7 @@
     overflow: hidden;
     position: fixed; /* Sets the navbarto fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    height: 50px;
+    height: 100px;
     width: 100%; /* Full width */
     z-index: 2;
   }
@@ -58,8 +58,8 @@
     content: '';
     right: 0;
     top: 0;
-    border-top: 3px solid var(--color-accent1);
-    border-right: 3px solid var(--color-accent2);
+    border-top: 6px solid var(--color-accent1);
+    border-right: 6px solid var(--color-accent2);
     transform: translate(-100%, 50%);
   }
 
@@ -67,9 +67,9 @@
     content: '';
     left: 0;
     bottom: 0;
-    border-bottom: 3px solid var(--color-accent1);
-    border-left: 3px solid var(--color-accent2);
-    transform: translate(100%, -50%)
+    border-bottom: 6px solid var(--color-accent1);
+    border-left: 6px solid var(--color-accent2);
+    transform: translate(100%, -50%);
   }
 
   .page-links a:hover:before,
@@ -343,6 +343,112 @@
     display: flex;
     width: 100vw;
     justify-content: space-evenly;
+  }
+
+  @media screen and (min-width: 1600px) {
+    .landing {
+      font-size: 2em;
+      gap: 2em;
+    }
+
+    .logo {
+      height:1em;
+      width: 2em;
+    }
+  
+    .button {
+      margin-top: 1em;
+    }
+  
+    .btn {
+      font-size: 0.8em;
+    }
+  
+    .navbar {
+      font-size: 2.4em;
+      z-index: 3;
+    }
+
+    .link {
+      font-size: 1.5em;
+    }
+
+    main#carousel {
+      height: 40em;
+    }
+
+    div.item {
+      width: 40em;
+      height: 40em;
+    }
+
+    .middle-info {
+      position: relative;
+      top: 3em;
+      font-size: 2em;
+    }
+
+    .carousel-div {
+      width: 100vw;
+      column-gap: 4em;
+    }
+
+    .carousel-div > input, .gallery-arrow {
+      height: 8em;
+      width: 8em;
+    }
+
+    .gallery-arrow {
+      width: 12em;
+      height: 12em;
+    }
+
+    .portrait {
+      height: 20em;
+      width: 20em;
+    }
+
+    .left-list {
+      font-size: 1.8em;
+    }
+
+
+    .hex {
+      height: 20em;
+      width: 20em;
+    }
+
+    .hex-text {
+      margin-top: 0.5em;
+      color: white;
+      font-size: 1.5em;
+    }
+    
+    .hex-logo {
+      margin: 0;
+      z-index: 2;
+      height: 7em;
+      width: 7em;
+    }
+
+    .contact-div-title {
+      position: relative;
+      bottom: 5em;
+    }
+
+    .upper {
+      font-size: 1.5em;
+    }
+
+    .lower{
+    position: relative;
+    font-size: 1.5em;
+    top: 2em;
+    }
+
+    .contact-div {
+      font-size: 3em;
+    }
   }
   
 

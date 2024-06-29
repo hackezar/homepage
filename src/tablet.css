@@ -1,4 +1,5 @@
-@media screen and (min-width: 601px) and (max-width: 1240px){
+@media screen and (min-width: 601px) and (max-width: 1600px){
+
     .navbar {
         display: none;
     }
@@ -38,10 +39,13 @@
     
     .contact {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .contact-div {
         height: 3em;
+        display: flex;
         align-items: center;
         justify-content: center;
     }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 600px) {
     .navbar {
         display: none;
     }
@@ -35,23 +35,33 @@
         height: 7em;
         width: 7em;
     }
+
+    .contact-section {
+        display: flex;
+    }
     
     .contact-div-title {
+        position: relative;
+        top: 6em;
         font-size: 1em;
-        justify-items: start;
+        z-index: 2;
+        gap: 2em;
     }
 
     .contact {
+        display: flex;
+        height: 100vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0;
-        gap: 1em;
+        gap: 5em;
     }
 
     .contact-div {
         height: 2.5em;
         width: 16em;
+        display: flex;
         align-items: center;
         justify-content: center;
         margin: 0;

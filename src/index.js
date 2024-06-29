@@ -1,12 +1,12 @@
 import _, { add } from "lodash";
 // CSS Files
 import "./style.css";
+import "./stickyNavbar.css";
+import './hexagon.css';
 // CSS for desktop screen width
 import "./desktop.css";
-import "./stickyNavbar.css";
 import './landingButton.css';
 import './firefliesAnimation.css';
-import './hexagon.css';
 //CSS for Tablet screen width
 import './tablet.css';
 // CSS For Mobile
