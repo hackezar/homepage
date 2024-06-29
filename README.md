@@ -1,3 +1,3 @@
-# Webpack_ESlist_Prettier_template
+# Jack Halcisak's Homepage
 
-A template for new projects. This template contains webpack, eslist, and prettier
+Homepage for my web developer journey
