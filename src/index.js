@@ -1,7 +1,6 @@
 import _, { add } from "lodash";
 // CSS Files
 import "./style.css";
-import "./stickyNavbar.css";
 import './hexagon.css';
 // CSS for desktop screen width
 import "./desktop.css";
@@ -11,6 +10,8 @@ import './firefliesAnimation.css';
 import './tablet.css';
 // CSS For Mobile
 import './mobile.css';
+import "./stickyNavbar.css";
+
 
 // JS Functions
 import addImages from './addImages.js';

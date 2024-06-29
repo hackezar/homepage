@@ -7,6 +7,8 @@
     "test": "jest",
     "dev": "webpack --mode=development",
     "prod": "webpack --mode=production",
+    "build": "webpack",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "watch": "npx webpack --watch",
     "start": "webpack serve --open"
@@ -36,9 +38,14 @@
     "webpack-dev-server": "^5.0.2",
     "xml-loader": "^1.2.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackezar/homepage.git"  
+  },
   "dependencies": {
     "css": "^3.0.0",
     "loader": "^2.1.1",
     "lodash": "^4.17.21"
-  }
+  },
+  "homepage": "http://hackezar.github.io/homepage"
 }
