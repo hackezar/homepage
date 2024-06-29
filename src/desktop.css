@@ -16,7 +16,7 @@
     overflow: hidden;
     position: fixed; /* Sets the navbarto fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    height: 100px;
+    height: 50px;
     width: 100%; /* Full width */
     z-index: 2;
   }
