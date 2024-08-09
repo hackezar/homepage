@@ -6,7 +6,7 @@ import './hexagon.css';
 import "./desktop.css";
 import './landingButton.css';
 import './firefliesAnimation.css';
-//CSS for Tablet screen width
+// CSS for Tablet screen width
 import './tablet.css';
 // CSS For Mobile
 import './mobile.css';
@@ -31,11 +31,6 @@ import MongoDB from './images/mongodb-seeklogo.svg';
 import Node from './images/node-logo.png';
 import Webpack from './images/webpack-logo.png';
 
-
-
-
-let vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 
 startApp();
 

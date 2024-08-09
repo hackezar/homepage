@@ -56,13 +56,14 @@ body {
 
 .gallery-container {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   background-color: #151a17;
   scroll-snap-align: start;
 }
 
 .gallery-name {
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -193,8 +194,8 @@ flex-direction: column;
 }
 
 .about-list > li {
-  margin: 2em;
-  font-size: 2em;
+  margin: 1rem 0;
+  font-size: 2vw;
   border: 1px solid var(--color-accent1);
   padding: 1em;
   border-radius: 1em;

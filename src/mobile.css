@@ -10,30 +10,45 @@
         justify-content: space-evenly;
     }
 
+    .gallery-container {
+        height: 100vh;
+    }
+
+    .middleInfo {
+        margin: 0;
+
+    }
+
     .hex-text {
         margin-top: 0.5em;
         color: white;
-        font-size: 1em;
+        font-size: 3vh;
       }
       
       .hex-logo {
         margin: 0;
         z-index: 2;
-        height: 4em;
-        width: 4em;
+        height: 5vh;
+        width: 5vh;
       }
+
+    .portrait {
+        height: 15vh;
+        width: 15vh;
+    }
+
 
     .about-list > li {
         display: flex;
         align-items: center;
         margin: 0.4em;
-        height: 0.5em;
-        font-size: 1.5em;
+        height: 0.3vh;
+        font-size: 5vw;
     }
 
     .hex {
-        height: 7em;
-        width: 7em;
+        height: 25vw;
+        width: 25vw;
     }
 
     .contact-section {

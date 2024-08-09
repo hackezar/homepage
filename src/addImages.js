@@ -1,11 +1,11 @@
-import Logo from './images/logo.png';
+import Logo from './images/logo.jpg';
 import Portrait from './images/portrait.jpg';
 import Email from './icons/email.svg';
 
 
 export default function addImages() {
-    let logo = document.querySelector('.logo');
+    const logo = document.querySelector('.logo');
     logo.src = Logo;
-    let portrait = document.querySelector('.portrait');
-    portrait.src = Portrait;
+    const portrait = document.querySelector('.portrait');
+    portrait.src = Logo;
 }
