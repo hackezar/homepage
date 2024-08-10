@@ -22,14 +22,14 @@
     .hex-text {
         margin-top: 0.5em;
         color: white;
-        font-size: 3vh;
+        font-size: 4vw;
       }
       
       .hex-logo {
         margin: 0;
         z-index: 2;
-        height: 5vh;
-        width: 5vh;
+        height: 14vw;
+        width: 14vw;
       }
 
     .portrait {

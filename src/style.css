@@ -48,7 +48,7 @@ body {
 .about {
   display: flex;
   height: 100vh;
-  justify-content:center;
+  justify-content:space-between;
   align-items: center;
   z-index: 1;
   scroll-snap-align: start;
@@ -142,7 +142,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3em;
+  margin-right: 1rem;
 }
 
 .row1, .row2, .row3 {
@@ -169,13 +169,11 @@ body {
   background-color: black;
 }
 
-.portrait-div{
-  margin: 0 10em;
-}
-
 .portrait {
   border-radius: 10em;
   box-shadow: rgba(0, 0, 0) 0px 2px 8px;
+  height: 20vw;
+  width: 20vw;
 }
 
 .about-list {
@@ -191,6 +189,7 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 1rem;
 }
 
 .about-list > li {
