@@ -1,7 +1,7 @@
 :root {
   --color-accent1: #e31baa;
   --color-accent2: #0af2fa;
-  --carouselHeight: 90vw;
+  --carouselHeight: 50vh;
 }
 
 /* CSS for Desktop Screens (width greater than the defined pixels */
@@ -315,9 +315,13 @@
       gap: 1em;
   }
 
-  .name, .link {
-      font-size: 2rem;
+  .link {
+      font-size: 2.5rem;
       margin: 0;
+  }
+
+  .logo-name {
+    font-size: 2rem;
   }
 
   .carousel-info {
