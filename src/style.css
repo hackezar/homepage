@@ -245,6 +245,11 @@ flex-direction: column;
   align-self: center;
 }
 
+.upper {
+  text-align: center;
+  padding: 1rem;
+}
+
 .github-data {
   font-size: 0.93em;
 }
@@ -261,5 +266,4 @@ flex-direction: column;
   position: absolute;
   width: 3em;
   height: 3em;
-  ;
 }
