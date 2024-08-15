@@ -43,6 +43,10 @@
         justify-content: center;
     }
 
+    .contact-data {
+        font-size: 1rem;
+    }
+
     .contact-div {
         height: 3em;
         display: flex;

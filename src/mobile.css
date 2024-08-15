@@ -94,4 +94,8 @@
     .carousel-div {
         grid-template-columns: 1fr 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 1fr;
     }
+
+    div.item {
+        width: 45vh;
+    }
 }

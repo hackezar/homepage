@@ -24,8 +24,7 @@ import './images/battleship.png';
 import './images/library-app.png';
 import JavaScript from './images/javascript-logo.png';
 import CSS from './images/css-logo.png';
-import Git from './images/git-logo.png';
-import Github from './images/github-logo.png';
+import React from './images/react.svg';
 import Html from './images/html-logo.png';
 import MongoDB from './images/mongodb-seeklogo.svg';
 import Node from './images/node-logo.png';
@@ -52,7 +51,7 @@ function addSkillIcons() {
     document.getElementById('jsIcon').src = JavaScript;
     document.getElementById('html-icon').src = Html;
     document.getElementById('css-icon').src = CSS;
-    document.getElementById('github-icon').src = Github;
+    document.getElementById('react-icon').src = React;
     document.getElementById('mongo-db-icon').src = MongoDB;
     document.getElementById('node-icon').src = Node;
     document.getElementById('webpack-icon').src = Webpack;

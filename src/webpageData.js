@@ -2,13 +2,13 @@ import BattleShip from './images/battleship.png';
 import ResumeBuilder from './images/resumeBuilder.png';
 import MemoryGame from './images/memoryGame.png';
 import TicTacToe from './images/tic-tac-toe.png';
-import WeatherApp from './images/weather-app.png';
 import ToDoList from './images/to-do-list.png';
 import AdminDashboard from './images/admin-dashboard.png';
 import EtchASketch from './images/etch-a-sketch.png';
 import RockPaperScissors from './images/rock-paper-scissors.png';
 import Calculator from './images/calculator.png';
 import BusinessWebsite from './images/business-website.png';
+import EShop from './images/e-shop.png';
 
  class ListNode {
     constructor(name, pic, src, index, selected) {
@@ -65,7 +65,7 @@ export function makeLinkedList () {
     let node2 = new ListNode('Memory Game', MemoryGame, 'https://memory-game-five-eta.vercel.app/' ,1, false);
     node1.next = node2;
     node2.previous = node1;
-    let node3 = new ListNode('Weather App', WeatherApp, 'https://hackezar.github.io/weatherApp/' , 2, false);
+    let node3 = new ListNode('Online Shop', EShop, 'https://shopping-cart-six-woad.vercel.app/shop' , 2, false);
     node3.previous = node2;
     node2.next = node3;
     let node4 = new ListNode("Resume Builder", ResumeBuilder, 'https://resume-app-three-lovat.vercel.app/', 3, false);
